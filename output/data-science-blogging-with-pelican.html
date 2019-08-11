@@ -13,13 +13,13 @@
 
         <meta name="author" content="Chris Degiere" />
         <meta name="keywords" content="pelican,data science" />
-        <meta name="description" content="I&#39;ve started porting my old old Wordpress blog posts that haven&#39;t aged so poorly to a new pelican based static content blog here. Why? I&#39;d like to start authoring blog posts using Jupyter Notebooks like these: Visualizing Bitcoin Trust Networks Visualizing Historical Bitcoin Prices Intro to Python for Financial Market …" />
+        <meta name="description" content="I&#39;ve been blogging on Wordpress since 2007, but very infrequently, maybe somewhat due to the workflow and platform. For many years now, most of the interesting content I create is in Jupyter notebooks (certainly the more relevant content to my work these days). I wanted a way to integrate this …" />
 
         <meta property="og:site_name" content="Chris Degiere's Data Science Blog" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="Data Science Blogging with Pelican"/>
         <meta property="og:url" content="./data-science-blogging-with-pelican.html"/>
-        <meta property="og:description" content="I&#39;ve started porting my old old Wordpress blog posts that haven&#39;t aged so poorly to a new pelican based static content blog here. Why? I&#39;d like to start authoring blog posts using Jupyter Notebooks like these: Visualizing Bitcoin Trust Networks Visualizing Historical Bitcoin Prices Intro to Python for Financial Market …"/>
+        <meta property="og:description" content="I&#39;ve been blogging on Wordpress since 2007, but very infrequently, maybe somewhat due to the workflow and platform. For many years now, most of the interesting content I create is in Jupyter notebooks (certainly the more relevant content to my work these days). I wanted a way to integrate this …"/>
         <meta property="article:published_time" content="2019-08-06" />
             <meta property="article:section" content="Articles" />
             <meta property="article:tag" content="pelican" />
@@ -112,17 +112,42 @@ Chris Degiere's Data Science Blog            </a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>I've started porting my old old Wordpress blog posts that haven't aged so poorly to a new pelican based
-static content blog here. Why? I'd like to start authoring blog posts using Jupyter Notebooks like these:</p>
+                <p>I've been blogging on <a href="https://wordpress.org">Wordpress</a> since 2007, but very infrequently, maybe somewhat due to the
+workflow and platform. For many years now, most of the interesting content I create is in
+<a href="https://jupyter.org/">Jupyter</a> notebooks (certainly the more relevant content to my work these days). I wanted a way
+to integrate this content into my blog, but realized that not all of the legacy content has aged well and a notebook
+workflow using the current setup would likely be cumbersome.</p>
+<p>I've used <a href="https://nbviewer.jupyter.org/">nbviewer</a> to make web accessible versions of notebooks in the past, for
+example:</p>
+<ul>
+<li><a href="https://nbviewer.jupyter.org/github/degiere/python-finance-notebooks/blob/master/python-financial-market-data-visualization.ipynb">Intro to Python for Financial Market Data</a></li>
+</ul>
+<p>Also with two research notebooks from the recent <a href="https://www.coursera.org/learn/datavisualization">Data Visualization</a>
+course I completed, which is part of the <a href="https://www.coursera.org/specializations/data-mining">Data Mining Specialty</a>
+that I've been working towards at a leisurely pace. Here are those in their original form to compare:</p>
 <ul>
 <li><a href="https://nbviewer.jupyter.org/github/degiere/python-finance-notebooks/blob/master/visualizing-bitcoin-otc-trust-network.ipynb">Visualizing Bitcoin Trust Networks</a></li>
 <li><a href="https://nbviewer.jupyter.org/github/degiere/python-finance-notebooks/blob/master/visualizing-historical-bitcoin-prices.ipynb">Visualizing Historical Bitcoin Prices</a></li>
-<li><a href="https://nbviewer.jupyter.org/github/degiere/python-finance-notebooks/blob/master/python-financial-market-data-visualization.ipynb">Intro to Python for Financial Market Data</a></li>
 </ul>
-<h3>Resources</h3>
+<p>I've worked on a number of custom CMS projects before, including Drupal extensions, and once even a simple music content
+manager for the fabulous <a href="https://www.xlr8r.com/">XLR8R Magazine</a>. I've never been that happy working in PHP though.
+Extending Wordpress would mean going deep with PHP again. Are there any options available in the ecosystem of my day to
+day Jupyter, markdown, python, and git workflow?</p>
+<p>Inspired by the great results from the likes of <a href="https://jakevdp.github.io/">Jake VanderPlas</a> and
+<a href="https://chrisalbon.com/">Chris Albon</a>, and mostly using Peter Kazarinoff's super helpful
+<a href="https://pythonforundergradengineers.com/how-i-built-this-site-1.html">How I Built This Site</a>,
+I decided to give the python based static site generator <a href="http://getpelican.com">Pelican</a> a try to publish Jupyter
+Notebooks directly to <a href="https://pages.github.com/">Github Pages</a>. </p>
+<p>Long story short, I've enjoyed the process and end result so much that I've ported some old content and notebooks over
+to the site you're reading right here! I'll keep incorporating relevant old content, and will likely be inspired to
+publish more on this platform. Perhaps I'll even do some theme and plugin work! At least I'd like to get Pandas
+Dataframe's rendering like they do natively, but we'll save that for another post...</p>
+<h2>Resources</h2>
 <ul>
+<li><a href="https://github.com/degiere/blog">https://github.com/degiere/blog</a></li>
 <li><a href="https://pages.github.com/">https://pages.github.com/</a></li>
-<li><a href="https://docs.getpelican.com/en/stable/index.html">https://docs.getpelican.com/en/stable/index.html</a></li>
+<li><a href="https://getpelican.com/">https://getpelican.com/</a></li>
+<li><a href="https://github.com/danielfrg/pelican-ipynb">https://github.com/danielfrg/pelican-ipynb</a></li>
 </ul>
             </div>
             <!-- /.entry-content -->
@@ -157,13 +182,13 @@ static content blog here. Why? I'd like to start authoring blog posts using Jupy
       <a href="./tag/visualization.html">visualization</a>
     </li>
     <li class="list-group-item tag-2">
+      <a href="./tag/python.html">python</a>
+    </li>
+    <li class="list-group-item tag-2">
       <a href="./tag/cryptocurrency.html">cryptocurrency</a>
     </li>
     <li class="list-group-item tag-2">
       <a href="./tag/matplotlib.html">matplotlib</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="./tag/python.html">python</a>
     </li>
     <li class="list-group-item tag-4">
       <a href="./tag/pelican.html">pelican</a>

@@ -1,20 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Chris Degiere's Data Science Blog - Articles</title><link href="https://degiere.github.io/blog/" rel="alternate"></link><link href="https://degiere.github.io/blog/feeds/articles.atom.xml" rel="self"></link><id>https://degiere.github.io/blog/</id><updated>2019-08-06T00:00:00-07:00</updated><entry><title>Data Science Blogging with Pelican</title><link href="https://degiere.github.io/blog/data-science-blogging-with-pelican.html" rel="alternate"></link><published>2019-08-06T00:00:00-07:00</published><updated>2019-08-06T00:00:00-07:00</updated><author><name>Chris Degiere</name></author><id>tag:degiere.github.io,2019-08-06:/blog/data-science-blogging-with-pelican.html</id><summary type="html">&lt;p&gt;I've started porting my old old Wordpress blog posts that haven't aged so poorly to a new pelican based
-static content blog here. Why? I'd like to start authoring blog posts using Jupyter Notebooks like these:&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Chris Degiere's Data Science Blog - Articles</title><link href="https://degiere.github.io/blog/" rel="alternate"></link><link href="https://degiere.github.io/blog/feeds/articles.atom.xml" rel="self"></link><id>https://degiere.github.io/blog/</id><updated>2019-08-06T00:00:00-07:00</updated><entry><title>Data Science Blogging with Pelican</title><link href="https://degiere.github.io/blog/data-science-blogging-with-pelican.html" rel="alternate"></link><published>2019-08-06T00:00:00-07:00</published><updated>2019-08-06T00:00:00-07:00</updated><author><name>Chris Degiere</name></author><id>tag:degiere.github.io,2019-08-06:/blog/data-science-blogging-with-pelican.html</id><summary type="html">&lt;p&gt;I've been blogging on &lt;a href="https://wordpress.org"&gt;Wordpress&lt;/a&gt; since 2007, but very infrequently, maybe somewhat due to the
+workflow and platform. For many years now, most of the interesting content I create is in
+&lt;a href="https://jupyter.org/"&gt;Jupyter&lt;/a&gt; notebooks (certainly the more relevant content to my work these days). I wanted a way
+to integrate this …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I've been blogging on &lt;a href="https://wordpress.org"&gt;Wordpress&lt;/a&gt; since 2007, but very infrequently, maybe somewhat due to the
+workflow and platform. For many years now, most of the interesting content I create is in
+&lt;a href="https://jupyter.org/"&gt;Jupyter&lt;/a&gt; notebooks (certainly the more relevant content to my work these days). I wanted a way
+to integrate this content into my blog, but realized that not all of the legacy content has aged well and a notebook
+workflow using the current setup would likely be cumbersome.&lt;/p&gt;
+&lt;p&gt;I've used &lt;a href="https://nbviewer.jupyter.org/"&gt;nbviewer&lt;/a&gt; to make web accessible versions of notebooks in the past, for
+example:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://nbviewer.jupyter.org/github/degiere/python-finance-notebooks/blob/master/visualizing-bitcoin-otc-trust-network.ipynb"&gt;Visualizing Bitcoin Trust Networks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://nbviewer.jupyter.org/github/degiere/python-finance-notebooks/blob/master/visualizing-historical-bitcoin-prices.ipynb"&gt;Visualizing Historical Bitcoin Prices&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://nbviewer.jupyter.org/github/degiere/python-finance-notebooks/blob/master/python-financial-market-data-visualization.ipynb"&gt;Intro to Python for Financial Market …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;I've started porting my old old Wordpress blog posts that haven't aged so poorly to a new pelican based
-static content blog here. Why? I'd like to start authoring blog posts using Jupyter Notebooks like these:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://nbviewer.jupyter.org/github/degiere/python-finance-notebooks/blob/master/visualizing-bitcoin-otc-trust-network.ipynb"&gt;Visualizing Bitcoin Trust Networks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://nbviewer.jupyter.org/github/degiere/python-finance-notebooks/blob/master/visualizing-historical-bitcoin-prices.ipynb"&gt;Visualizing Historical Bitcoin Prices&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://nbviewer.jupyter.org/github/degiere/python-finance-notebooks/blob/master/python-financial-market-data-visualization.ipynb"&gt;Intro to Python for Financial Market Data&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Resources&lt;/h3&gt;
+&lt;p&gt;Also with two research notebooks from the recent &lt;a href="https://www.coursera.org/learn/datavisualization"&gt;Data Visualization&lt;/a&gt;
+course I completed, which is part of the &lt;a href="https://www.coursera.org/specializations/data-mining"&gt;Data Mining Specialty&lt;/a&gt;
+that I've been working towards at a leisurely pace. Here are those in their original form to compare:&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://nbviewer.jupyter.org/github/degiere/python-finance-notebooks/blob/master/visualizing-bitcoin-otc-trust-network.ipynb"&gt;Visualizing Bitcoin Trust Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nbviewer.jupyter.org/github/degiere/python-finance-notebooks/blob/master/visualizing-historical-bitcoin-prices.ipynb"&gt;Visualizing Historical Bitcoin Prices&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I've worked on a number of custom CMS projects before, including Drupal extensions, and once even a simple music content
+manager for the fabulous &lt;a href="https://www.xlr8r.com/"&gt;XLR8R Magazine&lt;/a&gt;. I've never been that happy working in PHP though.
+Extending Wordpress would mean going deep with PHP again. Are there any options available in the ecosystem of my day to
+day Jupyter, markdown, python, and git workflow?&lt;/p&gt;
+&lt;p&gt;Inspired by the great results from the likes of &lt;a href="https://jakevdp.github.io/"&gt;Jake VanderPlas&lt;/a&gt; and
+&lt;a href="https://chrisalbon.com/"&gt;Chris Albon&lt;/a&gt;, and mostly using Peter Kazarinoff's super helpful
+&lt;a href="https://pythonforundergradengineers.com/how-i-built-this-site-1.html"&gt;How I Built This Site&lt;/a&gt;,
+I decided to give the python based static site generator &lt;a href="http://getpelican.com"&gt;Pelican&lt;/a&gt; a try to publish Jupyter
+Notebooks directly to &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Long story short, I've enjoyed the process and end result so much that I've ported some old content and notebooks over
+to the site you're reading right here! I'll keep incorporating relevant old content, and will likely be inspired to
+publish more on this platform. Perhaps I'll even do some theme and plugin work! At least I'd like to get Pandas
+Dataframe's rendering like they do natively, but we'll save that for another post...&lt;/p&gt;
+&lt;h2&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/degiere/blog"&gt;https://github.com/degiere/blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://pages.github.com/"&gt;https://pages.github.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://docs.getpelican.com/en/stable/index.html"&gt;https://docs.getpelican.com/en/stable/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://getpelican.com/"&gt;https://getpelican.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/danielfrg/pelican-ipynb"&gt;https://github.com/danielfrg/pelican-ipynb&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><category term="pelican"></category><category term="data science"></category></entry><entry><title>Hello World!</title><link href="https://degiere.github.io/blog/hello-world.html" rel="alternate"></link><published>2019-07-23T00:00:00-07:00</published><updated>2019-07-23T00:00:00-07:00</updated><author><name>Chris Degiere</name></author><id>tag:degiere.github.io,2019-07-23:/blog/hello-world.html</id><content type="html">&lt;p&gt;Here's some basic python code to test pelican themes and code styling:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;# &lt;span class="nv"&gt;a&lt;/span&gt; &lt;span class="nv"&gt;comment&lt;/span&gt;
 &lt;span class="nv"&gt;def&lt;/span&gt; &lt;span class="nv"&gt;say_hello&lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;name&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;:
