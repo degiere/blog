@@ -1,4 +1,4 @@
-# Chris Degiere Personal Blog
+# Chris Degiere Data Science Blog
 
 ## Running
 
@@ -12,7 +12,7 @@ Public Live:
 ```
 make publish; ghp-import output; git push origin gh-pages
 ```
-<https://degiere.github.io/degiere.github.io-source/>
+<https://degiere.github.io/blog/>
 
 ## Reference
 
