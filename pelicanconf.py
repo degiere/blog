@@ -55,3 +55,6 @@ BOOTSTRAP_THEME = 'flatly'
 I18N_TEMPLATES_LANG = 'en'
 
 PYGMENTS_STYLE = 'default'
+
+# https://github.com/getpelican/pelican-plugins/tree/master/tag_cloud
+TAG_CLOUD_MAX_ITEMS = 6

@@ -1,4 +1,4 @@
-Title: Pelican Data Science Blog
+Title: Data Science Blogging with Pelican
 Date: 2019-08-06
 Category: Articles
 Tags: pelican, data science
