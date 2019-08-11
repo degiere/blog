@@ -2,10 +2,17 @@
 
 ## Running
 
+Run Locally:
 ```
 make html; make serve
 ```
 <http://localhost:8000/>
+
+Public Live:
+```
+make publish; ghp-import output; git push origin gh-pages
+```
+<https://degiere.github.io/degiere.github.io-source/>
 
 ## Reference
 
