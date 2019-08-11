@@ -1,5 +1,11 @@
 # Chris Degiere Personal Blog
 
+## Running
+
+```
+make html; make serve
+```
+
 ## Reference
 
 Mostly following the great writeup here:
