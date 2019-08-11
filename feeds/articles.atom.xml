@@ -7821,7 +7821,7 @@ h6:hover .anchor-link {
 &lt;/script&gt;
 </content><category term="jupyter"></category><category term="pandas"></category></entry><entry><title>Traffic Metrics and 5 Source Code Search Sites</title><link href="https://degiere.github.io/blog/traffic-metrics-and-5-source-code-search-sites.html" rel="alternate"></link><published>2008-12-24T00:00:00-08:00</published><updated>2008-12-24T00:00:00-08:00</updated><author><name>Chris Degiere</name></author><id>tag:degiere.github.io,2008-12-24:/blog/traffic-metrics-and-5-source-code-search-sites.html</id><summary type="html">&lt;p&gt;Competitive research and traffic analysis is an important part of launching a new
 site or web app.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Alexa Toolbar" src="../images/alexa_toolbar.jpg" title="Alexa Toolbar"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Alexa Toolbar" src="https://degiere.github.io/blog/images/alexa_toolbar.jpg" title="Alexa Toolbar"&gt;&lt;/p&gt;
 &lt;p&gt;I did a quick study that uses source code search sites as the subject for comparison.
 Here I  highlight some key metrics from these two Firefox add-ons:&lt;/p&gt;
 &lt;ul&gt;
@@ -7830,7 +7830,7 @@ Here I  highlight some key metrics from these two Firefox add-ons:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;I …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Competitive research and traffic analysis is an important part of launching a new
 site or web app.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Alexa Toolbar" src="../images/alexa_toolbar.jpg" title="Alexa Toolbar"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Alexa Toolbar" src="https://degiere.github.io/blog/images/alexa_toolbar.jpg" title="Alexa Toolbar"&gt;&lt;/p&gt;
 &lt;p&gt;I did a quick study that uses source code search sites as the subject for comparison.
 Here I  highlight some key metrics from these two Firefox add-ons:&lt;/p&gt;
 &lt;ul&gt;
@@ -7875,7 +7875,7 @@ and "Related Links" features of both of the above add-ons&lt;/p&gt;
 &lt;p&gt;First, you have to take these rankings with a grain of salt. Google's PageRank seems to honor the difference between google.com (10) and google.com/codesearch (7). Alexa's Traffic Rank (2) does not honor the difference and uses the ranking for Google's main domain instead.&lt;/p&gt;
 &lt;p&gt;Another useful metric is unique visitors seen here from compete.com:
 &lt;a href="http://siteanalytics.compete.com/koders.com+krugle.com+codease.com/?metric=uv"&gt;http://siteanalytics.compete.com/koders.com+krugle.com+codease.com/?metric=uv&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Compete: Code Search Sites" src="../images/compete.png" title="Compete: Code Search Sites"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Compete: Code Search Sites" src="https://degiere.github.io/blog/images/compete.png" title="Compete: Code Search Sites"&gt;&lt;/p&gt;
 &lt;p&gt;For a quick look at how the search results look for these sites,
 I plugged in Spring's verbosely named
 AbstractTransactionalDataSourceSpringContextTests. Here are some links to the results:&lt;/p&gt;
@@ -7885,7 +7885,7 @@ AbstractTransactionalDataSourceSpringContextTests. Here are some links to the re
 &lt;li&gt;&lt;a href="http://www.krugle.org/kse/entfiles?query=AbstractTransactionalDataSourceSpringContextTests"&gt;http://www.krugle.org/kse/entfiles?query=AbstractTransactionalDataSourceSpringContextTests&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://codase.com/search/text?join=abstracttransactionaldatasourcespringcontexttests+&amp;amp;scope=join%2Fjoin"&gt;http://codase.com/search/text?join=abstracttransactionaldatasourcespringcontexttests+&amp;amp;scope=join%2Fjoin&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;If you'd like to mention more sites like this, please share in the comments!&lt;/p&gt;</content><category term="data science"></category></entry><entry><title>Country Code TLD Visualization</title><link href="https://degiere.github.io/blog/country-code-tld-visualization.html" rel="alternate"></link><published>2008-05-03T00:00:00-07:00</published><updated>2008-05-03T00:00:00-07:00</updated><author><name>Chris Degiere</name></author><id>tag:degiere.github.io,2008-05-03:/blog/country-code-tld-visualization.html</id><content type="html">&lt;p&gt;&lt;img alt="Country Code TLD Visualization" src="../images/cctld_1200.jpg" title="Country Code TLD Visualization"&gt;&lt;/p&gt;
+&lt;p&gt;If you'd like to mention more sites like this, please share in the comments!&lt;/p&gt;</content><category term="data science"></category></entry><entry><title>Country Code TLD Visualization</title><link href="https://degiere.github.io/blog/country-code-tld-visualization.html" rel="alternate"></link><published>2008-05-03T00:00:00-07:00</published><updated>2008-05-03T00:00:00-07:00</updated><author><name>Chris Degiere</name></author><id>tag:degiere.github.io,2008-05-03:/blog/country-code-tld-visualization.html</id><content type="html">&lt;p&gt;&lt;img alt="Country Code TLD Visualization" src="https://degiere.github.io/blog/images/cctld_1200.jpg" title="Country Code TLD Visualization"&gt;&lt;/p&gt;
 &lt;p&gt;Here’s a really &lt;a href="https://www.bytelevel.com/map/ccTLD.html"&gt;great visualization of the top level domains&lt;/a&gt; of the world listed by
 &lt;a href="https://en.wikipedia.org/wiki/ISO_3166-1"&gt;iso country code&lt;/a&gt; and sized by population.&lt;/p&gt;
 &lt;p&gt;Via: &lt;a href="https://www.bytelevel.com/map/ccTLD.html"&gt;Bytelevel&lt;/a&gt;
