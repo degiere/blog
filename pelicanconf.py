@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Chris Degiere'
 SITENAME = "Chris Degiere's Data Science Blog"
-# SITEURL = ''
+#SITEURL = 'https://degiere.github.io/blog'
 
 PATH = 'content'
 

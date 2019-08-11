@@ -6,7 +6,7 @@ Tags: data science
 Competitive research and traffic analysis is an important part of launching a new
 site or web app.
 
-![Alexa Toolbar](../images/alexa_toolbar.jpg "Alexa Toolbar")
+![Alexa Toolbar]({static}/images/alexa_toolbar.jpg "Alexa Toolbar")
 
 I did a quick study that uses source code search sites as the subject for comparison.
 Here I  highlight some key metrics from these two Firefox add-ons:
@@ -55,7 +55,7 @@ First, you have to take these rankings with a grain of salt. Google's PageRank s
 Another useful metric is unique visitors seen here from compete.com:
 <http://siteanalytics.compete.com/koders.com+krugle.com+codease.com/?metric=uv>
 
-![Compete: Code Search Sites](../images/compete.png "Compete: Code Search Sites")
+![Compete: Code Search Sites]({static}/images/compete.png "Compete: Code Search Sites")
 
 For a quick look at how the search results look for these sites,
 I plugged in Spring's verbosely named

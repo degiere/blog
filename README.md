@@ -10,7 +10,8 @@ make html; make serve
 
 Public Live:
 ```
-make publish; ghp-import output; git push origin gh-pages
+make publish
+ghp-import output; git push origin gh-pages
 ```
 <https://degiere.github.io/blog/>
 
