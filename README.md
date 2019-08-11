@@ -8,5 +8,7 @@ make html; make serve
 
 ## Reference
 
-Mostly following the great writeup here:
+* Mostly following the great writeup here:
 <https://pythonforundergradengineers.com/how-i-built-this-site-1.html>
+* Then for a more up to date jupyter plugin:
+< https://github.com/danielfrg/pelican-ipynb>

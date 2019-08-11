@@ -1,6 +1,6 @@
 Title: Hello World!
 Date: 2019-07-23
-Category: articles
+Category: Articles
 Tags: python
 
 Here's some basic python code to test pelican themes and code styling.

@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Chris Degiere'
 SITENAME = "Chris Degiere's Data Science Blog"
-SITEURL = ''
+# SITEURL = ''
 
 PATH = 'content'
 
@@ -22,16 +22,36 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('Jinja2', 'http://jinja.pocoo.org/'),)
 
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/chrisdegiere'),
+          ('Twitter', 'https://twitter.com/degiere'),)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-THEME = 'simple'
+
+MARKUP = ('md', 'ipynb')
+
+PLUGIN_PATHS = ['./plugins', './pelican-plugins']
+PLUGINS = [
+    'i18n_subsites',
+    'series',
+    'tag_cloud',
+    'liquid_tags.youtube',
+    'liquid_tags.include_code',
+    'render_math',
+	'ipynb.markup'
+	]
+
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+IGNORE_FILES = [".ipynb_checkpoints"]  
+
+THEME = 'pelican-themes/pelican-bootstrap3'
+BOOTSTRAP_THEME = 'flatly'
+
+I18N_TEMPLATES_LANG = 'en'
+
+PYGMENTS_STYLE = 'default'
