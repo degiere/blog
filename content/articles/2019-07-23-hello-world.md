@@ -3,7 +3,7 @@ Date: 2019-07-23
 Category: Articles
 Tags: python
 
-Here's some basic python code to test pelican themes and code styling.
+Here's some basic python code to test pelican themes and code styling:
 
 ```
 # a comment

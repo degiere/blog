@@ -5,6 +5,7 @@
 ```
 make html; make serve
 ```
+<http://localhost:8000/>
 
 ## Reference
 
