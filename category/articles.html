@@ -54,9 +54,6 @@ Chris Degiere's Data Science Blog            </a>
                          <li><a href="../pages/about.html">
                              About
                           </a></li>
-                         <li><a href="../pages/contact.html">
-                             Contact
-                          </a></li>
                         <li class="active">
                             <a href="../category/articles.html">Articles</a>
                         </li>
@@ -74,54 +71,54 @@ Chris Degiere's Data Science Blog            </a>
 <!-- Content Container -->
 <div class="container">
     <div class="row">
-        <div class="col-sm-9">
+        <div class="col-lg-12">
             <article>
-                <h2><a href="../data-science-blogging-with-pelican.html">Data Science Blogging with Pelican</a></h2>
-                <div class="summary"><p>I've been blogging on <a href="https://wordpress.org">Wordpress</a> since 2007, but very infrequently, maybe somewhat due to the
+                <h2><a href="../blog/data-science-blogging-with-pelican/">Data Science Blogging with Pelican</a></h2>
+                <div class="summary"><p><img alt="Data Science" src="../images/data-science-1.png" title="Data Science"></p>
+<p>I've been blogging on <a href="https://wordpress.org">Wordpress</a> since 2007, but very infrequently, maybe somewhat due to the
 workflow and platform. For many years now, most of the interesting content I create is in
 <a href="https://jupyter.org/">Jupyter</a> notebooks (certainly the more relevant content to my work these days). I wanted a way
-to integrate this …</p>
-                    <a class="btn btn-default btn-xs" href="../data-science-blogging-with-pelican.html">more ...</a>
+to integrate this content into my blog, but realized that not all of the legacy content has aged well and a notebook
+workflow using the current setup would likely be cumbersome.</p>
+<p>I've used <a href="https://nbviewer.jupyter.org/">nbviewer</a> to make web accessible versions of notebooks in the past, for
+example:</p>
+<ul>
+<li><a href="https://nbviewer.jupyter.org/github/degiere/python-finance-notebooks/blob/master/python-financial-market-data-visualization.ipynb">Intro to Python for Financial Market Data …</a></li></ul>
+                    <a class="btn btn-default btn-xs" href="../blog/data-science-blogging-with-pelican/">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="../hello-world.html">Hello World!</a></h2>
-                <div class="summary"><p>Here's some basic python code to test pelican themes and code styling:</p>
-<div class="highlight"><pre><span></span># <span class="nv">a</span> <span class="nv">comment</span>
-<span class="nv">def</span> <span class="nv">say_hello</span><span class="ss">(</span><span class="nv">name</span><span class="ss">)</span>:
-    <span class="nv">print</span><span class="ss">(</span><span class="nv">f</span><span class="s1">&#39;</span><span class="s">Hello {name}!</span><span class="s1">&#39;</span><span class="ss">)</span>
-
-<span class="k">if</span> <span class="nv">__name__</span> <span class="o">==</span> <span class="s2">&quot;</span><span class="s">__main__</span><span class="s2">&quot;</span>:
-    <span class="nv">say_hello</span><span class="ss">(</span><span class="s1">&#39;</span><span class="s">Chris</span><span class="s1">&#39;</span><span class="ss">)</span>  
-</pre></div>
-                    <a class="btn btn-default btn-xs" href="../hello-world.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="../intro-to-python-for-financial-market-data.html">Intro to Python for Financial Market Data</a></h2>
+                <h2><a href="../blog/intro-to-python-for-financial-market-data/">Intro to Python for Financial Market Data</a></h2>
                 <div class="summary"><div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Most finance websites show quotes or charts for various financial markets. Where is this data freely available and how can we download it, wrangle it into a useable format, and visualize it ourselves?</p>
 <p>A quote for a financial instrument like a stock, currency, or commodity  is a snapshot in time reflecting the sum of individual trades happening on the market for this instrument. Data points like price or trading volume are collected periodically to form a historical time series. If we chart this time series, we can visualize the activity of individual instruments,  or the market as a whole with an index, and gain a quick overview, and perhaps some insights into the data.</p>
-                    <a class="btn btn-default btn-xs" href="../intro-to-python-for-financial-market-data.html">more ...</a>
+                    <a class="btn btn-default btn-xs" href="../blog/intro-to-python-for-financial-market-data/">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="../visualizing-bitcoin-otc-trust-networks.html">Visualizing Bitcoin OTC Trust Networks</a></h2>
+                <h2><a href="../blog/visualizing-bitcoin-otc-trust-networks/">Visualizing Bitcoin OTC Trust Networks</a></h2>
                 <div class="summary"><div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Below is a who-trusts-whom network of people who trade using Bitcoin on a platform called Bitcoin OTC. Since Bitcoin users are anonymous, there is a need to maintain a record of users' reputation to prevent transactions with fraudulent and risky users. Members of Bitcoin OTC rate other members in a scale of -10 (total distrust) to +10 (total trust) in steps of 1.</p>
-                    <a class="btn btn-default btn-xs" href="../visualizing-bitcoin-otc-trust-networks.html">more ...</a>
+<p>Let's see if we can produce some meaningful insights by visualizing a snapshot of the network.</p>
+<h2 id="Dataset-statistics">Dataset statistics<a class="anchor-link" href="#Dataset-statistics">&#182;</a></h2><ul>
+<li>Nodes 5,881</li>
+<li>Edges 35,592</li>
+<li>Range of edge weight  -10 to +10</li>
+<li>Percentage of positive edges  89%</li>
+</ul>
+<h2 id="Sampling">Sampling<a class="anchor-link" href="#Sampling">&#182;</a></h2><p>One month sample is used with a broad range of ratings.</p>
+                    <a class="btn btn-default btn-xs" href="../blog/visualizing-bitcoin-otc-trust-networks/">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="../visualizing-historical-bitcoin-prices.html">Visualizing Historical Bitcoin Prices</a></h2>
+                <h2><a href="../blog/visualizing-historical-bitcoin-prices/">Visualizing Historical Bitcoin Prices</a></h2>
                 <div class="summary"><div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -132,22 +129,77 @@ to integrate this …</p>
 </ul>
 <h2 id="Candlestick-Chart">Candlestick Chart<a class="anchor-link" href="#Candlestick-Chart">&#182;</a></h2><p>Use matplotlib and mpl finance library for candlestick support: <a href="https://github.com/matplotlib/mpl_finance">https://github.com/matplotlib/mpl_finance</a></p>
 <p>Chart shows:</p>
-                    <a class="btn btn-default btn-xs" href="../visualizing-historical-bitcoin-prices.html">more ...</a>
+<ul>
+<li>Bitcoin prices organized by day (in UTC)</li>
+<li>X-axis is Date</li>
+<li>Y-axis is Price at Open, High, Low, and Close of the day</li>
+</ul>
+<h2 id="Interpretation">Interpretation<a class="anchor-link" href="#Interpretation">&#182;</a></h2><ul>
+<li>Color:<ul>
+<li>Green candlesticks are "bullish" trend days (increased price)</li>
+<li>Red candlesticks are "bearish" trend days (decreased price)</li>
+</ul>
+</li>
+<li>Body: Difference between open and close, day's trend strengh</li>
+<li>Shadows: Day's price range, high above open/close, low below open/close</li>
+                    <a class="btn btn-default btn-xs" href="../blog/visualizing-historical-bitcoin-prices/">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="../example-jupyter-notebook.html">Example Jupyter Notebook</a></h2>
-                <div class="summary"><div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Pig boudin strip steak shoulder prosciutto brisket. Doner turkey swine jerky. Salami biltong kevin meatloaf. Rump fatback turducken brisket, tri-tip kielbasa chuck drumstick sausage capicola porchetta beef ribs bresaola boudin. Burgdoggen bacon pork chop, chuck sirloin beef ribs brisket filet mignon strip steak ham hock andouille landjaeger fatback. Capicola venison kielbasa sirloin pastrami sausage pancetta fatback.</p>
-                    <a class="btn btn-default btn-xs" href="../example-jupyter-notebook.html">more ...</a>
+                <h2><a href="../blog/interviewed-for-the-striker-report/">Interviewed for The Striker Report</a></h2>
+                <div class="summary"><p><br/></p>
+<p><img alt="Finance" src="../images/finance-2.png" title="Finance"></p>
+<p>I was interviewed for the February issue of the
+<a href="http://www.striker-report.com/issues/SR_newsletter.php?issueID=83&amp;intID=57">Striker Report</a>.</p>
+<h2>Developer/CTA Interview</h2>
+<h3>Chris Degiere, Founder of Trading Technicians</h3>
+<ul>
+<li>Program(s) Developed: Evolution Gold Trading System</li>
+<li>Interview Date: February, 2014</li>
+<li>Interviewed by John F. Gallwas, Founder of Striker Securities, Inc.</li>
+</ul>
+<p>Chris Degiere is the founder and principal of Trading Technicians, a Silicon Valley company that
+develops and markets futures trading systems. Chris is a software engineer and consultant with
+more than 17 years of experience in the technology and financial industries and has been an
+active trader and system developer since 2007.</p>
+<p>John Gallwas: Tell us a little about …</p>
+                    <a class="btn btn-default btn-xs" href="../blog/interviewed-for-the-striker-report/">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="../traffic-metrics-and-5-source-code-search-sites.html">Traffic Metrics and 5 Source Code Search Sites</a></h2>
+                <h2><a href="../blog/using-a-trade-assist-broker-for-automated-trading-systems/">Using a Trade-assist Broker for Automated Trading Systems</a></h2>
+                <div class="summary"><p><img alt="Trade Assist Broker" src="../images/trade-assist-broker.png" title="Trade Assist Broker"></p>
+<h2>What is autotrading or broker assist trading?</h2>
+<p>Trading Technicians develops automated trading systems for commodity futures trading.</p>
+<p>Investors seeking diversification and exposure to short-term quantitative trading in commodities
+can have a trade-assist broker execute our automated trading systems for you.</p>
+<p>You grant discretion to the assisting futures broker and they execute trading signals generated by
+our automated trading systems directly in your account.</p>
+<h2>What are the benefits of using a trade-assist broker?</h2>
+<p>Even fully automated trading systems require dedicated time and supervision during market hours.
+Many investors do not have the time to make sure every trading signal is followed …</p>
+                    <a class="btn btn-default btn-xs" href="../blog/using-a-trade-assist-broker-for-automated-trading-systems/">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="../blog/hello-world/">Hello World!</a></h2>
+                <div class="summary"><p>Here's some basic python code to test pelican themes and code styling:</p>
+<div class="highlight"><pre><span></span># <span class="nv">a</span> <span class="nv">comment</span>
+<span class="nv">def</span> <span class="nv">say_hello</span><span class="ss">(</span><span class="nv">name</span><span class="ss">)</span>:
+    <span class="nv">print</span><span class="ss">(</span><span class="nv">f</span><span class="s1">&#39;</span><span class="s">Hello {name}!</span><span class="s1">&#39;</span><span class="ss">)</span>
+
+<span class="k">if</span> <span class="nv">__name__</span> <span class="o">==</span> <span class="s2">&quot;</span><span class="s">__main__</span><span class="s2">&quot;</span>:
+    <span class="nv">say_hello</span><span class="ss">(</span><span class="s1">&#39;</span><span class="s">Chris</span><span class="s1">&#39;</span><span class="ss">)</span>  
+</pre></div>
+                    <a class="btn btn-default btn-xs" href="../blog/hello-world/">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="../blog/traffic-metrics-and-5-source-code-search-sites/">Traffic Metrics and 5 Source Code Search Sites</a></h2>
                 <div class="summary"><p>Competitive research and traffic analysis is an important part of launching a new
 site or web app.</p>
 <p><img alt="Alexa Toolbar" src="../images/alexa_toolbar.jpg" title="Alexa Toolbar"></p>
@@ -157,85 +209,52 @@ Here I  highlight some key metrics from these two Firefox add-ons:</p>
 <li><a href="http://toolbar.google.com">Google Toolbar</a></li>
 <li><a href="http://www.alexa.com/site/download">Alexa Toolbar &amp; Sparky</a></li>
 </ul>
-<p>I …</p>
-                    <a class="btn btn-default btn-xs" href="../traffic-metrics-and-5-source-code-search-sites.html">more ...</a>
+<p>I found these sites through my delicious bookmarks, search, and the "Similar Pages"
+and "Related Links" features of both of the above add-ons</p>
+<table class="table">
+<tr>
+    <th>Source Code Search Site</th>
+    <th>Alexa Traffic Rank</th>
+    <th>CoolGoogle PageRanke</th>
+</tr>
+<tr>
+    <td>Google.com/codesearch</td>
+    <td>2</td>
+    <td>7</td>
+</tr>
+<tr>
+    <td>Koders.com</td>
+    <td>34642</td>
+    <td>6</td>
+</tr>
+<tr>
+    <td>Krugle.com</td>
+    <td>113268</td>
+    <td>5</td>
+</tr>
+<tr>
+    <td>Codefetch.com</td>
+    <td>175389</td>
+    <td>4</td>
+</tr>
+<tr>
+    <td>Codease.com …</td></tr></table>
+                    <a class="btn btn-default btn-xs" href="../blog/traffic-metrics-and-5-source-code-search-sites/">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="../country-code-tld-visualization.html">Country Code TLD Visualization</a></h2>
+                <h2><a href="../blog/country-code-tld-visualization/">Country Code TLD Visualization</a></h2>
                 <div class="summary"><p><img alt="Country Code TLD Visualization" src="../images/cctld_1200.jpg" title="Country Code TLD Visualization"></p>
 <p>Here’s a really <a href="https://www.bytelevel.com/map/ccTLD.html">great visualization of the top level domains</a> of the world listed by
 <a href="https://en.wikipedia.org/wiki/ISO_3166-1">iso country code</a> and sized by population.</p>
 <p>Via: <a href="https://www.bytelevel.com/map/ccTLD.html">Bytelevel</a>
 and <a href="https://boingboing.net/2008/04/25/www-domain-country-c.html">BoingBoing</a>.</p>
-                    <a class="btn btn-default btn-xs" href="../country-code-tld-visualization.html">more ...</a>
+                    <a class="btn btn-default btn-xs" href="../blog/country-code-tld-visualization/">more ...</a>
                 </div>
             </article>
             <hr/>
 
-        </div>
-        <div class="col-sm-3" id="sidebar">
-            <aside>
-<!-- Sidebar -->
-<section class="well well-sm">
-  <ul class="list-group list-group-flush">
-
-<!-- Sidebar/Social -->
-<li class="list-group-item">
-  <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
-  <ul class="list-group" id="social">
-    <li class="list-group-item"><a href="https://www.linkedin.com/in/chrisdegiere"><i class="fa fa-linkedin-square fa-lg"></i> LinkedIn</a></li>
-    <li class="list-group-item"><a href="https://twitter.com/degiere"><i class="fa fa-twitter-square fa-lg"></i> Twitter</a></li>
-  </ul>
-</li>
-<!-- End Sidebar/Social -->
-
-<!-- Sidebar/Tag Cloud -->
-<li class="list-group-item">
-  <a href="../"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
-  <ul class="list-group " id="tags">
-    <li class="list-group-item tag-1">
-      <a href="../tag/data-science.html">data science</a>
-    </li>
-    <li class="list-group-item tag-1">
-      <a href="../tag/visualization.html">visualization</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../tag/python.html">python</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../tag/cryptocurrency.html">cryptocurrency</a>
-    </li>
-    <li class="list-group-item tag-2">
-      <a href="../tag/matplotlib.html">matplotlib</a>
-    </li>
-    <li class="list-group-item tag-4">
-      <a href="../tag/pelican.html">pelican</a>
-    </li>
-  </ul>
-</li>
-<!-- End Sidebar/Tag Cloud -->
-
-<!-- Sidebar/Links -->
-<li class="list-group-item">
-  <h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
-  <ul class="list-group" id="links">
-    <li class="list-group-item">
-      <a href="http://getpelican.com/" target="_blank">Pelican</a>
-    </li>
-    <li class="list-group-item">
-      <a href="http://python.org/" target="_blank">Python.org</a>
-    </li>
-    <li class="list-group-item">
-      <a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a>
-    </li>
-  </ul>
-</li>
-<!-- End Sidebar/Links -->
-  </ul>
-</section>
-<!-- End Sidebar -->            </aside>
         </div>
     </div>
 </div>
