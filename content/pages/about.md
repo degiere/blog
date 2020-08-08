@@ -2,10 +2,7 @@ Title: About
 Date: 2019-08-06
 Category: About
 
-<img class="img-responsive" style="float: right; margin: 20px 20px 20px 20px;" height="160" width="160"
-    src="https://media.licdn.com/dms/image/C4E03AQEOWjSTZejC5w/profile-displayphoto-shrink_200_200/0?e=1571270400&v=beta&t=P3n1dyGYILE1OO7_RpieA1E-8MPxkmt69TdyejaBjoU">
-
-It's a blog! It's mostly about data things. Here's a little about me too:
+It's a blog! It's mostly about data things. Here's a little about me (Chris Degiere) too:
 
 ## TL;DR
 
@@ -16,8 +13,6 @@ Social:
 [LinkedIn](https://www.linkedin.com/in/chrisdegiere/),
 [Twitter](https://twitter.com/degiere),
 [Github](http://github.com/degiere)
-
-Personal: Family, AI, Music, Trading, Tomfoolery.
 
 ## Verbose
 
@@ -37,7 +32,7 @@ Some accolades for my work:
 * Winning team for 2 hack-day events at LinkedIn, 2014-2017
 * Developed a [futures trading algorithm](http://www.striker-report.com/issues/SR_newsletter.php?issueID=83&intID=57)
 placing #1 in monthly and quarterly leaderboards with Striker Securities, 2013  
-* Developed the data platform for
+* Helped develop the data platform for
 [StockTouch](https://www.slideshare.net/visiblemarket/visible-market-fintech-demo-07182012),
 Apple App Store Rewind's #1 iPad App in Finance, 2011 
 
@@ -60,16 +55,12 @@ to participate in events and read publications.
 
 ### Interests
 
-Family: All manner of play, [games](https://boardgamegeek.com/familygames/browse/boardgame),
-[making](https://makezine.com/2017/05/16/kids-guide-maker-faire-bay-area-25-awesome-things-see/),
-and travel with my [wife](https://www.emilyingebricson.com/) and two daughters.
-
 Music:
 
 * I'm in a three piece indie / psych rock band, playing Bass and Fx:
 [Have Special Power](https://havespecialpower.bandcamp.com/)
 * I also occasionally [record](https://www.discogs.com/artist/25109-Chris-Degiere) and perform
-[live electronic music](https://soundcloud.com/degiere).
+[live electronic music](https://soundcloud.com/degiere). You can buy my music on [bandcamp](http://chrisdegiere.bandcamp.com/) and I'll donate the proceeds to charity.
 
 Engineering and Data Science: [Blog Tags](../tags.html)
 
